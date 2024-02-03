@@ -1,0 +1,34 @@
+{
+  "profiles": {
+    "https": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "UploadFolderName": "uploads",
+        "DevelopedBy": "MGR",
+        "Environment": "Local",
+        "Secret": "abc123"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "https://localhost:7147;http://localhost:5054"
+    },
+
+    "Docker": {
+      "commandName": "Docker",
+      "launchBrowser": true,
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/swagger",
+      "publishAllPorts": true,
+      "useSSL": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "UploadFolderName": "uploads",
+        "DevelopedBy": "MGR",
+        "Environment": "Local",
+        "Secret": "abc123"
+      }
+    }
+  },
+  "$schema": "https://json.schemastore.org/launchsettings.json"
+}
