@@ -17,7 +17,7 @@ public class PingController : ControllerBase
 			DevelopedBy = Environment.GetEnvironmentVariable("DevelopedBy") ?? "-",
 			Environment = Environment.GetEnvironmentVariable("Environment") ?? "-",
 			Secret = Environment.GetEnvironmentVariable("Secret") ?? "-",
-			Version = "v1"
+			Version = "v2"
 		});
 	}
 
@@ -28,7 +28,7 @@ public class PingController : ControllerBase
 		{
 			Message = request.Message ?? "Hello world!",
 			MachineName = Environment.MachineName,
-			Version = "v1"
+			Version = "v2"
 
 		});
 	}
