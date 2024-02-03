@@ -7,7 +7,7 @@
     <RootNamespace>hello_api</RootNamespace>
     <UserSecretsId>7cbe6bfd-7791-473d-b417-f8f28d434b9f</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
-	  <DockerfileTag>mirzaevolution/hello-api:latest</DockerfileTag>  
+	  <DockerfileTag>mirzaevolution/hello-api:v1</DockerfileTag>  
   </PropertyGroup>
 
   <ItemGroup>
